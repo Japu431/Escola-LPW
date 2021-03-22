@@ -1,0 +1,44 @@
+body {
+  transition: 0.8s ease;
+}
+
+.container {
+  width: 95%;
+  padding: 20px;
+  margin: auto;
+
+  text-align: center;
+}
+
+#titulo {
+  text-align: center;
+  font-family: "Comic sans MS";
+  font-size: 18px;
+}
+
+#titulo-hide {
+  display: none;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+#paragrafo {
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-bottom: 12px;
+}
+
+.text-js {
+  color: rgb(255, 80, 226);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}

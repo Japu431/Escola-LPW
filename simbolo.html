@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Símbolos HTML</title>
+    <link rel="stylesheet" href="./css/simbolo.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="titulo" class="titulo">Simbolos HTML</h1>
+    </header>
+    <section>
+      <div id="container">
+        <p>
+          O Planeta Terra depende muito da Mata Atlântica , que ajuda a manter o
+          oxigênio ( 0<sub>2</sub>)
+        </p>
+        <p>
+          As nascentes da Mata atlântica formam rios que desembocam no mar
+          (h<sub>2</sub>0)
+        </p>
+        <p>y = x <sup>2</sup>+ z<sup>3</sup></p>
+
+        <p>Esta é uma marca registrada da XYZ <sup>&reg;</sup></p>
+        <p>Este site tem o apoio da Media Labs <sup>&#174;</sup></p>
+        <p id="penultimo">Esta é uma marca international da MacBook&trade;</p>
+        <p id="ultimo">
+          Este é uma marca international da impressora HP x80 &#8482;
+        </p>
+        <input type="checkbox" name="toggle" id="toggle" />
+        <div id="links">
+          <a href="./AloFITO.html">Home</a>
+          <a href="./ocultar.html">Ocultar</a>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const toggle = document.querySelector("#toggle");
+      const dark = "dark";
+      const body = document.body;
+
+      toggle.addEventListener("click", (muda) => {
+        let checkado = muda.target.checked;
+        body.classList.toggle(dark, checkado);
+      });
+    </script>
+  </body>
+</html>
