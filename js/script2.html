@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let valor = 1;
+      function mostra(valor) {
+        document.write(valor + "<br/>");
+      }
+
+      function mostra2(logica) {
+        document.write(`${logica} <br/>`);
+      }
+
+      mostra(valor++);
+      mostra(valor--);
+      mostra((valor += 2));
+      mostra((valor -= 2));
+      mostra((valor *= 2));
+      mostra((valor /= 2));
+
+      mostra2(10 * 5);
+      mostra2(10 * 5 + 5);
+      mostra2(10 * (5 + 5));
+      mostra2((10 * 5) / 2);
+      mostra2(10 * (4 / 2));
+      mostra2((10 / 5) * 2);
+      mostra2((valor += 5));
+      mostra2((valor = valor + 5));
+      
+    </script>
+  </body>
+</html>
