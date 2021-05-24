@@ -1,6 +1,28 @@
-body {
-  background: rgb(119, 168, 28);
+#page_amarelo {
+  background: yellow;
 }
+#page_azul {
+  background: blue;
+}
+#page_cinza {
+  background: gray;
+}
+
+#page_laranja {
+  background: rgb(253, 183, 52);
+}
+#page_rosa {
+  background: pink;
+}
+#page_verde {
+  background: green;
+}
+
+#page_vermelho {
+  background: red;
+}
+
+
 
 article > header > h1 {
     text-align: center;
@@ -31,21 +53,25 @@ a:hover {
     padding: 20px;
 }
 
-#link_azul {
+.link_azul {
   color: blue;
 }
-#link_vermelho {
+.link_vermelho {
   color: red;
 }
-#link_verde {
+.link_verde {
   color: green;
 }
-#link_laranja {
+.link_laranja {
   color: orange;
 }
-#link_cinza {
+.link_cinza {
   color: gray;
 }
-#link_rosa {
+.link_rosa {
   color: pink;
+}
+
+.link_amarelo {
+  color: yellow
 }
