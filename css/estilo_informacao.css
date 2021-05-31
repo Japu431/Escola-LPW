@@ -1,0 +1,22 @@
+body {
+    background: #bb99ff;
+}
+
+#titulo {
+    font-family: verdana;
+    font-size: 26px;
+    text-align:center;
+    color: #000090;
+}
+.paragrafo {
+    font-family: verdana;
+    font-size: 18px;
+    text-align: justify;
+    margin: 50px;
+}
+
+/* text-align: justify => ele vai deixar os textos todos alinhados até o final sem deixar algum espaço em branco */
+
+#regua_horizontal {
+    width: 90%;
+}

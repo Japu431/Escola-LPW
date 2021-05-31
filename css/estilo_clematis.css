@@ -6,7 +6,7 @@
   background: url("../img/clematis.jpg") repeat;
   border: 2px solid black;
   width: 90%;
-  margin: auto auto 30px;
+  margin: 30px auto 30px auto;
 }
 
 #caixa_ouro,
